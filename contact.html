@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <iframe src="header.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
+    </iframe>
+
+    <div class="title">
+        <span>Contact Us</span>
+        <p>Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit.</p>
+    </div>
+
+    <div class="container">
+        <div class="form-map">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message">
+                <button>Submit</button>
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.880374563283!2d105.77239131492962!3d21.03747199285674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b62229b1e5%3A0xd92945fb47bb4221!2zxJDhuqFpIEjhu41jIFRoxrDGoW5nIE3huqFpIC0gSOG7kyBUw7luZyBN4bqtdSAoQ-G7mXQgU2F1KQ!5e0!3m2!1svi!2s!4v1676362740414!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <iframe src="footer.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
+    </iframe>
+</body>
+<script src="index.js"></script>
+</html>

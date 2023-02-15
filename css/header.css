@@ -3,6 +3,12 @@ section * {
     color: white;
 }
 
+section {
+    position: sticky;
+    top: 0;
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,9 +34,10 @@ section * {
     display: flex;
     font-size: 20px;
     gap: 30px;
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 568px) {
     .header .header__logo {
         font-size: 30px;
     }
@@ -44,6 +51,18 @@ section * {
     .header .header__menu {
         display: none;
     }
+
+    .header .header__menu ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding-top: 20px !important;
+        padding-bottom: 20px;
+        left: 0;
+        top: auto;
+        right: 0;
+    }
+
 
     .container {
         padding: 0 20px !important;
