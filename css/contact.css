@@ -1,0 +1,123 @@
+.title {
+    width: 411px;
+    height: 162px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0;
+    line-height: 2em;
+}
+
+.title p {
+    font-size: 20px;
+    font-family: 'Work Sans';
+}
+
+.title span {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Crimson Text', serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    height: 385px;
+}
+
+form label {
+    margin-bottom: 16px;
+}
+
+form input,
+button {
+    margin-bottom: 20px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 38px;
+}
+
+form button {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    height: 45px;
+}
+
+form #message {
+    height: 70px;
+}
+
+.form-map form label {
+    font-size: 20px;
+}
+
+.form-map iframe {
+    width: 575px;
+    height: 384px;
+}
+
+.form-map {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 93px;
+}
+
+.bg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 93px;
+    align-items: center;
+}
+
+.bg iframe {
+    width: 575px;
+    height: 384px;
+}
+
+@media only screen and (max-width:568px) {
+    .title {
+        max-width: 335px;
+        height: 167px;
+    }
+
+    .title h4 {
+        font-size: 16px;
+    }
+
+    .title span {
+        font-size: 24px;
+        margin: 16px 0 !important;
+    }
+
+    .title p {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .form-map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-map form {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .form-map form button {
+        max-width: 345px;
+    }
+
+    .form-map form input {
+        max-width: 340px;
+    }
+
+    .form-map iframe {
+        width: 366px;
+        height: 235px;
+    }
+}
